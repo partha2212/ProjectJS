@@ -1,5 +1,5 @@
 document.getElementById("countshow").style.color="gray";
-document.body.style.backgroundColor = "black";
+document.body.style.backgroundColor = "lightblue";
 let count=0;
 let countText=document.getElementById("countshow")
 function update(){
