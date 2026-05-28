@@ -1,0 +1,32 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(0, 0, 0);
+    flex-direction:column;
+    gap:20px;
+    height:100vh;
+}
+
+#clock{
+    color:cyan;
+    font-size:100px;
+    font-family:monospace;
+    text-shadow:0 0 15px blue;
+    margin: 0;
+}
+#period{
+    font-size:30px;
+    bottom:0px;
+    left:10px;
+}
+button{
+    padding:10px 20px;
+    font-size:20px;
+    border-radius:10px;
+    cursor:pointer;
+    color:white;
+    background-color:rgb(73, 120, 247);
+    border:2px solid rgb(0, 255, 229);
+    color: rgb(223, 238, 152);
+}
