@@ -18,7 +18,6 @@ function calculate(){
     let text2= document.getElementById("display").value;
     let result = eval(document.getElementById("display").value);
     hist.unshift(text2 + "=" + result);
-    console.log(hist);
     if(hist.length > 2){
        hist.pop();
     }
